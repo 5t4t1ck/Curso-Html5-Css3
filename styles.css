@@ -73,3 +73,12 @@ img {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.dKz2oYrCnvkm4DWfOeXUKAHaDL%26pid%3DApi&f=1&ipt=a4abba3f6a0956d3590b3737e898eedf16c76da96480888b25215632b3e98421&ipo=images');
     background-repeat: no-repeat;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(13, 94, 67);
+}
