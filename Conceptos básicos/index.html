@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> -->
+    </head>
+    <body>
+
+    <h1>This is a example for title</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ab distinctio cum eaque impedit, quod beatae nam ratione officiis cupiditate facilis nisi voluptatum voluptas, expedita accusantium perferendis ex quibusdam voluptatem?</p>
+        
+    <!-- Abrir hipervinculo en un enlace externo target -->
+    <a href="https://abacom.edu.ec" target="_blank">www.abacom.ec</a>
+    <p>Lorem ipsum dolor sit <a href="https://abacom.edu.ec" target="_blank">www.abacom.ec</a> amet, consectetur adipisicing elit. Fugiat dignissimos numquam hic minus sit laboriosam deleniti, id reiciendis animi explicabo quod unde, beatae praesentium et  laudantium mollitia distinctio vitae facilis.</p>
+    <br>
+    <!-- Enviar correo electrónico utilizando mailto -->
+    <a href="mailto:dsaavedra88@gmail.com" target="_blank">Send Email</a>
+     <br>
+    <!-- Abrir hipervinculo desde imagen -->
+    <a href="https://abacom.edu.ec" target="_blank">
+    <img src="https://abacom.edu.ec/wp-content/uploads/2016/05/logo.png" alt="Logo Abacom" style="width: 150px;">
+    </a>
+    <br>
+    <!-- Uso de botones en html -->
+    <button onclick="document.location='conceptos.html'">Example of Button</button>
+    <br>
+    <!-- Links con títulos -->
+    <a href="https://abacom.edu.ec" title="Abacom" target="_blank">Ir a Abacom</a>
+
+    <hr>
+
+    <h2 id="Company">This is example of Company</h2>
+
+    <a href="https://abacom.edu.ec#Company" target="_blank">This is a example a hipervinculo for Company</a>
+
+    <h2 id="CB">Conceptos básicos</h2>
+
+    <a href="conceptos.html#CB">Conceptos básicos de HTML5 and CSS3</a>
+    
+    <hr>
+    <!-- Imagenes -->
+
+    <img src="https://i.ytimg.com/vi/BsPyGUNp0Xs/maxresdefault.jpg" alt="Paisaje">
+
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.photocrowd.com%2Fupl%2F63%2Fcms.ze5PXRQBqmpzLEf40OrA-collection_cover.jpeg&f=1&nofb=1&ipt=2e7e3cad8f0ceb538b50ed9f60af0ad262a6c10ee9e964dc25b6ed8c284fdcaa&ipo=images" alt="Turtle">
+
+    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdesignm.ag%2Fwp-content%2Fuploads%2F2013%2F01%2FMWEFP05_thumb.jpg&f=1&nofb=1&ipt=ec1a8c344d29a6dcf2531383ddd255733b99d16e8bde89bc8445278721f4ff39&ipo=images" alt="Apple">
+    
+    <a href="http://abacom.edu.ec" target="_blank">
+    <img id="homero"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fl2Je66zG6mAAZxgqI%2Fgiphy.gif&f=1&nofb=1&ipt=127f9ee1eb2458ee257550625977edbbba80bef78f68e4931d776d4922d6bb29&ipo=images" alt="Homero Simpson">
+    </a>
+
+    <img id="float" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F1b05146e66d71b6fc0de95c99c95ad68%2Ftenor.gif%3Fitemid%3D8083262&f=1&nofb=1&ipt=f795b8a55e2dfed27d86c93f4a8948b4ce2b956367d0132dd79182b06efb266b&ipo=images" alt="Example">
+
+    <img src="https://www.kyliegarner.com/wp-content/uploads/personal-branding-examples-melissaambrosini.jpg" alt="bicicle" usemap="#workmap">
+
+    <map name="workmap">
+        <area shape="rect" coords="160, 600, 0, 0" href="https://abacom.edu.ec" alt="bicicle" onclick="myFunction()">
+        <!-- <area shape="default" coords="290, 172, 333, 255" href="www.google.com" alt="car">
+        <area shape="rect" coords="0, 0, 160, 600" href="conceptos.html" alt="conceptos"> -->
+    </map>
+
+    <p id="example_baground">This is a examble background-color in paragraph</p>
+
+    <picture>
+
+        <source media="(min-width: 600px)" srcset="https://cdn.glidedesign.com/wp-content/uploads/AdobeStock_95402977.jpeg">
+        <!-- <source media="(min-width: 400px)" srcset="https://www.noupe.com/wp-content/uploads/2021/04/kevin-butz-6hsfmat-t7k-unsplash.jpg"> -->
+        <img src="https://www.noupe.com/wp-content/uploads/2021/04/kevin-butz-6hsfmat-t7k-unsplash.jpg" alt="example">
+    </picture>
+
+    <script>
+        function myFunction(){
+            alert("Ir a la página de abacom...")
+        }
+    </script>
+    </body>
+</html>

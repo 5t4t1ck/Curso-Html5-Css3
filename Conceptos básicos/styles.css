@@ -1,0 +1,84 @@
+body { 
+    background-color: rgb(150, 191, 191); /* Color de fondo */
+    background-image: url("https://fthmb.tqn.com/9p8uQQBgInySJy_2HrTo88XE2Zk=/5292x3302/filters:fill(auto,1)/143058853-56a12f375f9b58b7d0bcdc3c.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+
+}
+
+h1 {
+    color: blue; /* Color */ 
+    font-family: verdana; /* Fuente */
+    font-size: 300%; /* Tamaño */
+}
+
+p {
+    color: red; /* Color */
+    font-family: courier; /* Fuente */
+    font-size: 160%; /* Tamaño */
+    border: 2px solid mediumvioletred; /* Bordes */
+    padding: 30px;/* Padding */
+    margin: 50px; /* Margen */
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#CB {
+    color:chocolate;
+    background-color: transparent;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+#homero {
+    width: 500px;
+    height: 500px;
+}
+
+#float {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+#example_baground {
+
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.dKz2oYrCnvkm4DWfOeXUKAHaDL%26pid%3DApi&f=1&ipt=a4abba3f6a0956d3590b3737e898eedf16c76da96480888b25215632b3e98421&ipo=images');
+    background-repeat: no-repeat;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(13, 94, 67);
+}
